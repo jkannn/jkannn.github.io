@@ -79,6 +79,7 @@ opacity:0.1;
     font-family: 'josefin sans', sans-serif;
 }
 
+
 .popup-position{
 	display:none;
 	position: fixed;
@@ -103,14 +104,14 @@ z-index: 2;
 }
 
 #popup-screen{
-	background-color:#333d47; 
+	background: #fff;
 	height: 400px;
 	width: 320px;
 	
 }
 #popup-screen p{
 	letter-spacing: 1px;
-	color:#fff;
-	padding: 2px 2px 2px 2px;
+	
+	padding: 5px 5px 5px 5px;
 }
 
