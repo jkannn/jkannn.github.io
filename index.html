@@ -10,7 +10,15 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Poiret+One|Pacifico" rel="stylesheet">
 </head>
 <body>
+<!-- Loading Screen -->
 
+<div id="loading-screen">
+    <div class="dot white"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+</div>
 
 
 <!-- Container -->
@@ -70,8 +78,10 @@
 		<div id ="popup-container">
 		<div id ="popup-screen">
 		<a class="close-btn popup-close" href="index.html" style="float:right; text-decoration: none; color:#000;">X</a>
-			<h3 style="text-align:center;">About Me</h3>
-			<p>My name is Jeremy Kan. I'm a current student at California State Polytechnic University, Pomona studying Computer Information Systems. My passions involve building robust software solutions to tackle the day-to-day enterprise tasks in a more efficient manner. Let me know if you have any feedback on my portfolio or want to get in contact with me. My email is jeremykan@cpp.edu </p>
+			
+			<img src="JeremyPicture.jpg" style="border-radius:80px; width:100px; height:100px; text-align:start; padding-top: 20px; padding-left: 20px; text-align:inline;"><span style="font-size:40px; font-family:'josefin sans', sans-serif; margin-left:15px;">About Me</span></img>
+			
+			<p>My name is Jeremy Kan. I'm a current student at California State Polytechnic University, Pomona studying Computer Information Systems. <br><br> My passions involve building robust software solutions to tackle the day-to-day enterprise tasks in a more efficient manner. Let me know if you have any feedback on my portfolio or want to get in contact with me. <br><br>My email is jeremykan@cpp.edu </p>
 			</div>
 		</div>
 
@@ -103,6 +113,10 @@
        else
           e.style.display = 'block';
     }
+
+
+
+
 
 </script>
 
